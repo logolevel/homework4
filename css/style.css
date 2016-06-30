@@ -1,2 +1,25 @@
 @import "reset.css";
 /*styles*/
+body {
+	background-color: #128aa7;
+	background: rgb(18,138,167);
+  background: -moz-linear-gradient(top,  rgb(18,138,167) 0%, rgb(18,138,167) 10%, rgb(63,197,210) 13%, rgb(12,115,159) 100%);
+  background: -webkit-linear-gradient(top,  rgb(18,138,167) 0%,rgb(18,138,167) 10%,rgb(63,197,210) 13%,rgb(12,115,159) 100%);
+  background: linear-gradient(to bottom,  rgb(18,138,167) 0%,rgb(18,138,167) 10%,rgb(63,197,210) 13%,rgb(12,115,159) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#128aa7', endColorstr='#0c739f',GradientType=0 );
+  background-attachment: fixed;
+}
+.decoration-line {
+	height: 146px;
+	border-top: 1px solid #5ef0ff;
+	background-color: #17cfe2;
+	position: relative;
+	top: 28px;
+	left: 0;
+	background: rgb(16,196,215);
+  background: -moz-linear-gradient(top,  rgb(16,196,215) 0%, rgb(255,255,255) 100%);
+  background: -webkit-linear-gradient(top,  rgb(16,196,215) 0%,rgb(255,255,255) 100%);
+  background: linear-gradient(to bottom,  rgb(16,196,215) 0%,rgb(255,255,255) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10c4d7', endColorstr='#ffffff',GradientType=0 );
+
+}
