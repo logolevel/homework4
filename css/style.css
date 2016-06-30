@@ -21,5 +21,31 @@ body {
   background: -webkit-linear-gradient(top,  rgb(16,196,215) 0%,rgb(255,255,255) 100%);
   background: linear-gradient(to bottom,  rgb(16,196,215) 0%,rgb(255,255,255) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10c4d7', endColorstr='#ffffff',GradientType=0 );
+}
+/*Press footer down*/
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+.footer {
+	height: 50px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.container {
+	width: 1000px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: -147px;
+}
+/*header*/
 
+/*footer*/
+.footer {
+	text-align: center;
 }
