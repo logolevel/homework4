@@ -23,20 +23,8 @@ body {
   background: linear-gradient(to bottom,  rgb(16,196,215) 0%,rgb(255,255,255) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10c4d7', endColorstr='#ffffff',GradientType=0 );
 }
-/*Press footer down*/
-html, body {
-	height: 100%;
-}
 .wrapper {
-	min-height: 100%;
 	position: relative;
-}
-.footer {
-	height: 50px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
 }
 .container {
 	width: 1000px;
@@ -173,6 +161,37 @@ html, body {
   border-top-color: #fff;
   right: 19px;
   top: 17px;
+}
+/*content*/
+.wrap {
+	width: 1000px;
+	overflow: hidden;
+}
+.wrap h2 {
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+}
+.wrap p {
+	padding: 0 15px 10px;
+}
+.info,
+.news,
+.content {
+	width: 210px;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	color: #424c43;
+	font-size: 14px;
+}
+.news {
+	float: right;
+}
+.content {
+	width: 580px;
+	background: #fff;
 }
 /*footer*/
 .footer {
