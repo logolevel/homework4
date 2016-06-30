@@ -8,6 +8,7 @@ body {
   background: linear-gradient(to bottom,  rgb(18,138,167) 0%,rgb(18,138,167) 10%,rgb(63,197,210) 13%,rgb(12,115,159) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#128aa7', endColorstr='#0c739f',GradientType=0 );
   background-attachment: fixed;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 .decoration-line {
 	height: 146px;
@@ -42,9 +43,67 @@ html, body {
 	background-color: #fff;
 	margin: 0 auto;
 	margin-top: -147px;
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
+		 -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
+					box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.75);
 }
 /*header*/
-
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.header {
+	height: 175px;
+	color: #128aa7;
+	font-size: 12px;
+}
+.header a {
+	color: #128aa7;
+}
+.logo {
+	padding: 12px 0 0 25px ;
+	float: left;
+}
+.subtitle {
+	position: relative;
+	top: -55px;
+	left: -212px;
+}
+.contacts {
+	float: right;
+	margin: 10px 32px 30px 0;
+	line-height: 18px;
+}
+.flags {
+	float: right;
+	font-size: 10px;
+	margin-top: 110px;
+	margin-right: -135px;
+}
+.flags li {
+	display: inline-block;
+	width: 52px;
+	padding-top: 45px;
+	padding-left: 5px;
+	background-repeat: no-repeat;
+	background-image: url(../img/flag-sprite.png);
+}
+.flags li:nth-child(2) {
+	background-position: -63px 0;
+}
+.flags li:nth-child(3) {
+	background-position: 0 -63px;
+}
+.flags li:nth-child(4) {
+	background-position: -63px -63px;
+}
+.flags li:nth-child(5) {
+	background-position: 8px -125px;
+}
+.flags li:nth-child(6) {
+	background-position: -55px -125px;
+}
 /*footer*/
 .footer {
 	text-align: center;
