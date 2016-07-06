@@ -69,31 +69,57 @@ body {
 .flags {
 	float: right;
 	font-size: 10px;
-	margin-top: 110px;
+	margin-top: 153px;
 	margin-right: -135px;
 }
 .flags li {
 	display: inline-block;
-	width: 52px;
-	padding-top: 45px;
+	padding-left: 20px;
+}
+li.nav-butan {
+	padding-left: 20px;
+}
+li.nav-srilanka {
+	padding-left: 15px;
+}
+li.nav-maldives {
 	padding-left: 5px;
-	background-repeat: no-repeat;
+}
+.flags a {
+	position: relative;
+	display: inline-block;
+}
+.flags i {
+	position: absolute;
+	top: -44px;
+	width: 42px;
+	height: 42px;
 	background-image: url(../img/flag-sprite.png);
+	background-repeat: no-repeat;
 }
-.flags li:nth-child(2) {
+.flags li.nav-india i {
+	background-position: 0 0;
+	left: -5px;
+}
+.flags li.nav-nepal i {
 	background-position: -63px 0;
+	left: -5px;
 }
-.flags li:nth-child(3) {
+.flags li.nav-tibet i {
 	background-position: 0 -63px;
+	left: -7px;
 }
-.flags li:nth-child(4) {
+.flags li.nav-butan i {
 	background-position: -63px -63px;
+	left: -5px;
 }
-.flags li:nth-child(5) {
-	background-position: 8px -125px;
+.flags li.nav-srilanka i {
+	background-position: 0 -125px;
+	left: 4px;
 }
-.flags li:nth-child(6) {
-	background-position: -55px -125px;
+.flags li.nav-maldives i {
+	background-position: -62px -125px;
+	left: 0;
 }
 .header-photo {
 	width: 1000px;
@@ -103,15 +129,16 @@ body {
 }
 /*nav*/
 .nav ul {
+	position: relative;
 	display: block;
 	font-size: 14px;
 	background-color: #353535;
 	padding-left: 33px;
 	border-top: 1px solid #cacbcb;
 	border-bottom: 1px solid #000;
-	-webkit-box-shadow: 0px 3px 0px 0px rgba(112,112,112,1);
--moz-box-shadow: 0px 3px 0px 0px rgba(112,112,112,1);
-box-shadow: 0px 3px 0px 0px rgba(112,112,112,1);
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 .nav ul:after {
 	display: block;
@@ -141,17 +168,24 @@ box-shadow: 0px 3px 0px 0px rgba(112,112,112,1);
 	width: 100%;
 	top: 30px;
 	left: 25px;
-	padding-left: 10px;
+	padding-left: 0;
 	background-color: #353535;
 	border-top: 0;
 	border-bottom: 0;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 }
 .nav ul.submenu > li {
 	display: block;
 }
+.nav ul.submenu {
+	border-top: 1px solid #000;
+}
 .nav ul.submenu > li > a {
 	display: block;
 	padding: 8px 0;
+	padding-left: 10px;
 	color: #fff;
 	background-color: #353535;
 	text-decoration: none;
@@ -177,10 +211,10 @@ box-shadow: 0px 3px 0px 0px rgba(112,112,112,1);
 .wrap h2 {
 	font-size: 18px;
 	text-align: center;
-	padding: 10px;
+	padding-bottom: 10px;
 }
 .wrap p {
-	padding: 0 15px 10px;
+	padding: 0 0 10px;
 }
 .info,
 .news,
@@ -192,6 +226,9 @@ box-shadow: 0px 3px 0px 0px rgba(112,112,112,1);
 	margin-bottom: -20000px;
 	color: #424c43;
 	font-size: 14px;
+}
+.text-content {
+	padding: 15px;
 }
 .news {
 	float: right;
