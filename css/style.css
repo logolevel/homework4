@@ -69,57 +69,16 @@ body {
 .flags {
 	float: right;
 	font-size: 10px;
-	margin-top: 153px;
+	margin-top: 110px;
 	margin-right: -135px;
+	text-align: center;
 }
 .flags li {
 	display: inline-block;
-	padding-left: 20px;
+	margin-left: 5px;
 }
-li.nav-butan {
-	padding-left: 20px;
-}
-li.nav-srilanka {
-	padding-left: 15px;
-}
-li.nav-maldives {
-	padding-left: 5px;
-}
-.flags a {
-	position: relative;
-	display: inline-block;
-}
-.flags i {
-	position: absolute;
-	top: -44px;
-	width: 42px;
-	height: 42px;
-	background-image: url(../img/flag-sprite.png);
-	background-repeat: no-repeat;
-}
-.flags li.nav-india i {
-	background-position: 0 0;
-	left: -5px;
-}
-.flags li.nav-nepal i {
-	background-position: -63px 0;
-	left: -5px;
-}
-.flags li.nav-tibet i {
-	background-position: 0 -63px;
-	left: -7px;
-}
-.flags li.nav-butan i {
-	background-position: -63px -63px;
-	left: -5px;
-}
-.flags li.nav-srilanka i {
-	background-position: 0 -125px;
-	left: 4px;
-}
-.flags li.nav-maldives i {
-	background-position: -62px -125px;
-	left: 0;
+.flags a{
+	text-decoration: underline;
 }
 .header-photo {
 	width: 1000px;
